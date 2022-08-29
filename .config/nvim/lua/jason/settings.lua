@@ -1,5 +1,6 @@
 -- set wildignore+=*/node_modules/*
 
+--We prefer to write the settings in vimscript because it is more turse.
 vim.cmd([[
   syntax enable
   set shell=fish

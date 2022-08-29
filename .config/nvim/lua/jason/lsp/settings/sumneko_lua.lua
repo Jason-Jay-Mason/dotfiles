@@ -1,3 +1,9 @@
+local root_files = {
+  '.luarc.json',
+  '.luacheckrc',
+  '.stylua.toml',
+  'selene.toml',
+}
 return {
 	settings = {
 
