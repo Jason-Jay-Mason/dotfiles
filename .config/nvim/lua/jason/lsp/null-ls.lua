@@ -3,14 +3,12 @@ if not null_ls_status_ok then
 	return
 end
 
-local formatting = null_ls.builtins.formatting
 
 null_ls.setup({
-	debug = false,
-	sources = {
-		formatting.prettier.with({ extra_args = { "--no-semi", "--single-quote", "--jsx-single-quote" } }),
-		formatting.stylua,
-	},
+	--[[ sources = { ]]
+	--[[ 	require('null-ls').builtins.formatting.stylua, ]]
+	--[[ 	require('null-ls').builtins.formatting.eslint, ]]
+	require('null-ls').builtins.formatting.prettier,
+	--[[ }, ]]
+
 })
-
-

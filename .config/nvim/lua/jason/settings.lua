@@ -20,7 +20,7 @@ vim.cmd([[
   set undofile
   set undodir=$HOME/.nvim/undo
 	set mouse=a
-set clipboard+=unnamedplus
+	set clipboard=unnamed
   if has('nvim')
     set inccommand=split
   endif
@@ -46,7 +46,7 @@ set clipboard+=unnamedplus
   	set pumblend=5
   	colorscheme dracula
 		hi CursorLine term=bold cterm=bold
-		" hi normal guibg=NONE
+		hi normal guibg=NONE
 	endif
   
 ]])
