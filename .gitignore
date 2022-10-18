@@ -9,6 +9,7 @@
 
 .config/*
 !.config/nvim
+!.config/alacritty
 
 
 
