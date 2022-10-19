@@ -3,4 +3,7 @@ if not status_ok then
 	return
 end
 
-configs.setup({})
+--[[ configs.setup({ ]]
+--[[ 	filetypes = { "html", "xml", "tsx", 'jsx' }, ]]
+--[[ } ]]
+--[[ ) ]]
