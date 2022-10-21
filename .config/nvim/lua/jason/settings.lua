@@ -20,7 +20,7 @@ vim.cmd([[
   set undofile
   set undodir=$HOME/.nvim/undo
 	set mouse=a
-	set clipboard=unnamed
+set clipboard+=unnamedplus
   if has('nvim')
     set inccommand=split
   endif
