@@ -1,3 +1,4 @@
+
 -- set wildignore+=*/node_modules/*
 
 --We prefer to write the settings in vimscript because it is more turse.
@@ -20,7 +21,7 @@ vim.cmd([[
   set undofile
   set undodir=$HOME/.nvim/undo
 	set mouse=a
-set clipboard+=unnamedplus
+	set clipboard+=unnamedplus
   if has('nvim')
     set inccommand=split
   endif
@@ -37,7 +38,6 @@ set clipboard+=unnamedplus
   set ai
   set nowrap
   set path+=**
-
 	if exists("&termguicolors") && exists("&winblend")
   	syntax enable
   	set termguicolors
@@ -46,7 +46,7 @@ set clipboard+=unnamedplus
   	set pumblend=5
   	colorscheme dracula
 		hi CursorLine term=bold cterm=bold
-		" hi normal guibg=NONE
+		hi normal guibg=NONE
 	endif
   
 ]])
